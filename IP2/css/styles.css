@@ -1,0 +1,15 @@
+.background {
+  background-color: Midnightblue
+  opacity: 0.6
+}
+.h1,h2,h3,h4,h5,h6 (
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  )
+
+.body (
+    line-height: 1.8;
+    color: #898fa1;
+    font-size: 15px;
+    )
