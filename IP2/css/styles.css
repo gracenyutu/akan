@@ -15,14 +15,13 @@
   }
 
     .hero-image {
-      background-image: url("/w3images/photographer.jpg");
+      background-image: url("https://images.unsplash.com/photo-1524410772295-a22611c91129?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MzF8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
       background-color: #cccccc;
       height: 500px;
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
       position: relative;
-      font-size: 20px;
     }
 
     .hero-text {
@@ -32,4 +31,5 @@
       left: 50%;
       transform: translate(-50%, -50%);
       color: white;
+      font-size: 25px;
     }
