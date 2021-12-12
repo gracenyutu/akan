@@ -13,7 +13,7 @@
   </head>
   <body class="bg-primary hero-image">
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bgnav">
   <a class="navbar-brand" href="#">Akan</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -35,23 +35,35 @@
 <h1>Input!</h1>
 <div class="container mt-3">
   <h2>Birthday</h2>
-  <script src="js/scripts.js"></script>
-  <form action="/action_page.php">
-    <div class="row">
-    <div class="column-md-4 mb-3 mt-3">
-      <label for="">Day:</label>
-      <input type="Day" class="form-control" id="email" placeholder="Enter day" name="email">
-    </div>
-    <div class="column-md-4 mb-3">
-      <label for="month">Month:</label>
-      <input type="month" class="form-control" id="pwd" placeholder="Enter birthday month">
-    </div>
-    <div class="column-md-4 mb-3">
-      <label for="pwd">Year:</label>
-      <input type="year" class="form-control" id="pwd" placeholder="Enter year of birth" name="pswd">
-    </div>
-    <button type="submit" class="btn btn-secondary">Submit</button>
-  </form>
+  <form id="form-user" action="#" method="post">
+        <div class="form-box error" data-errormsg="">
+            <label for="input-name">Name</label>
+            <input type="text" id="input-name" autofocus placeholder="Name" tabindex="1"/>
+        </div>
+        <div class="form-box" data-errormsg="">
+            <label for="input-gender">Gender</label>
+            <input type="text" id="input-gender" required placeholder="Gender" tabindex="2" />
+        </div>
+        <div class="form-box" data-errormsg="">
+            <label for="input-date">Birthday</label>
+            <input type="date" id="input-date" required placeholder="Birthday" tabindex="3" />
+        </div>
+        <div class="form-box" data-errormsg="">
+            <label for="input-gender">Gender</label>
+            <select id="input-gender" tabindex="4" required>
+                <option value="0">male</option>
+                <option value="1">female</option>
+            </select>
+        </div>
+        <div class="form-box" data-errormsg="">
+            <label for="input-akan">Want to know your akan name?</label>
+            <input type="checkbox" id="input-alive" value="yes" tabindex="5" checked />
+        </div>
+        <div class="form-box">
+            <button id="button-cancel">Cancel</button>
+            <button id="button-send">Send</button>
+        </div>
+    </form>
 </div>
 
     <!-- Optional JavaScript -->

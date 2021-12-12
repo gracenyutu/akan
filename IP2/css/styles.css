@@ -2,6 +2,10 @@
   background-color: Midnightblue
   opacity: 0.6
 }
+.bgnav {
+  background-color: OrangeRed
+  opacity: 0.6
+}
 .h1,h2,h3,h4,h5,h6 {
   font-weight: 700;
   letter-spacing: 1px;
@@ -15,7 +19,7 @@
   }
 
     .hero-image {
-      background-image: url("https://images.unsplash.com/photo-1524410772295-a22611c91129?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MzF8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+      background-image: url("https://images.unsplash.com/photo-1564689442-3cba5b7cc9ae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTF8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
       background-color: #cccccc;
       height: 500px;
       background-position: center;
