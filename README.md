@@ -8,7 +8,7 @@ This application  calculates the day of the week the user was born using their b
 ## Setup/Installation Requirements
 * Open Terminal (Ctrl+Alt+T)
 * Git clone
-* cd Akan Name
+* cd Akan
 * Open your text editor. If using atom it will be (Atom .)
 
 ## How it Works
